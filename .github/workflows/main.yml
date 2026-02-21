@@ -1,0 +1,8 @@
+name: Hello
+on: ['push', 'pull_request']
+jobs:
+  build:
+     runs-on: ubuntu_latest
+     steps:
+      - name: build step
+        run: echo "The Vaishnavi Ghuge"
